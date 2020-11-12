@@ -42,10 +42,12 @@ var polygon = L.polygon([
 
 /*
  Haupteingang markieren
-*/
+ https://leafletjs.com/reference-1.7.1.html#marker
+
 var marker = L.marker([52.539119, 13.393250]).addTo(my_leaflet_map);
 marker.bindTooltip("Haupteingang", {permanent: true, className: "Haupteingang", offset: [0, 0] });
 marker.addTo(my_leaflet_map);
+*/
 
 /* 
  Raum E114 mit rotem Kreis kennzeichen
